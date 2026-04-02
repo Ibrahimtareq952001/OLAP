@@ -16,14 +16,15 @@ into a Star Schema (OLAP), using:
 
 # Project Structure
 
-tpch-olap-lab/
- 1_data_generation/     # TPCH data generation steps + screenshots
- 2_mysql_setup/         # DDL, data loading scripts, screenshots
- 3_star_schema/         # Star schema design, DDL, diagram
- 4_nifi_etl/            # NiFi flow template + processor descriptions
- 5_spark_queries/       # Spark query scripts + results
- 6_benchmarks/          # Timing table (16 runs)
- docs/                   
+tpch-olap-lab
+
+ 1_data_generation     # TPCH data generation steps + screenshots
+ 2_mysql_setup         # DDL, data loading scripts, screenshots
+ 3_star_schema         # Star schema design, DDL, diagram
+ 4_nifi_etl            # NiFi flow template + processor descriptions
+ 5_spark_queries       # Spark query scripts + results
+ 6_benchmark           # Timing table (16 runs)
+ 7-docs                   
 
 
 ---
